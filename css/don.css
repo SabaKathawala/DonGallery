@@ -1,0 +1,160 @@
+
+
+body {
+    background-color:rgba(162,155,145,0.5);
+	font-family: 'Palatino Linotype', sans-serif;
+    text-align: left;
+}
+
+p {
+    font-size: 1.4em;
+    text-align: left;
+    color: black;
+    padding-top: 0.2em;
+}
+
+.left {
+    background-color: rgba(200,158,86, 0.8);
+    padding: 2em 2em 0.5em 2em;
+    margin: 2em 0;
+}
+
+
+button{
+    margin-bottom: 1em;
+    background-color: rgba(200,158,86, 0.8);
+    border: solid 0.1em black;
+    width: 12em;
+    height: 3em;
+    font-size: 1.4em;
+    box-shadow: 0 0 1em black;
+}
+
+button img {
+    margin:-0.8em -0.25em 0 -0.25em;
+    width:2em;
+}
+
+a {
+    color:black;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.painting {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    margin-top: 34em;
+    box-shadow: 0.5em 0.5em 1em black;
+}
+
+
+.right {
+    font-family: 'Arial Black';
+    color: black;
+    text-align: left;
+    margin-top: 2.5em;
+}
+
+.left h2, h3, i {
+    color: black;
+    font-family: 'Palatino Linotype';
+    text-align: left;
+    display: block;
+}
+
+#mail {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+
+/**********************************
+Media Queries
+***********************************/
+@media (min-width: 769px) and (max-width: 991px) {
+    .painting {
+    margin-top:44.5em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+    #mail {
+        font-size:1em;
+    }
+    h2, h3 {
+        font-size: 1.8em
+    }
+    button{
+    margin-bottom: 0.8em;
+    font-size: 1.2em;
+    }
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 991px) and (max-width:1200px) {
+    .painting {
+    margin-top: 55em;
+    }
+}
+
+@media (min-width: 20px) and (max-width: 768px) {
+    .painting {
+    margin-top: 100em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+    #mail {
+        font-size:1em;
+    }
+    h2, h3 {
+        font-size: 1.6em
+    }
+    button{
+    margin-bottom: 0.6em;
+    font-size: 1em;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+}
+
+@media (min-width: 20px) and (max-width: 768px) {
+    .painting {
+    margin-top: 0;
+    }
+
+    .left {
+        margin-bottom: 0
+    }
+    .right {
+        margin-top: 0;
+        margin-bottom: 2em;
+    }
+    p {
+        font-size: 1.1em;
+    }
+    #mail {
+        font-size:1em;
+    }
+    h2, h3 {
+        font-size: 1.6em
+    }
+    button{
+    margin-bottom: 0.6em;
+    font-size: 1.2em;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+}
